@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SHUFFLE
 {
-    public partial class Form1 : Form
+    public partial class SHUFFLE : Form
     {
-        public Form1()
+        public SHUFFLE()
         {
             InitializeComponent();
         }
