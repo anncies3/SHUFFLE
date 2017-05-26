@@ -228,10 +228,10 @@ namespace SHUFFLE
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            if (pictureBox3.BackColor == Color.White)
+            if (pictureBox5.BackColor == Color.White)
             {
-                pictureBox3.BackgroundImage = pictureBox9.BackgroundImage;
-                pictureBox3.BackColor = Color.Gray;
+                pictureBox5.BackgroundImage = pictureBox9.BackgroundImage;
+                pictureBox5.BackColor = Color.Gray;
                 pictureBox9.BackgroundImage = Properties.Resources.pic00;
                 pictureBox9.BackColor = Color.White;
             }
