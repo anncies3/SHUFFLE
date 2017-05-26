@@ -180,6 +180,8 @@
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Gray;
             this.pictureBox11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox11.BackgroundImage")));
+            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox11.Location = new System.Drawing.Point(204, 236);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(90, 90);
@@ -234,6 +236,7 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.White;
+            this.pictureBox16.BackgroundImage = global::SHUFFLE.Properties.Resources.pic15;
             this.pictureBox16.Location = new System.Drawing.Point(300, 332);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(90, 90);
