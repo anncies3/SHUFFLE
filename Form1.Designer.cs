@@ -236,7 +236,6 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.White;
-            this.pictureBox16.BackgroundImage = global::SHUFFLE.Properties.Resources.pic15;
             this.pictureBox16.Location = new System.Drawing.Point(300, 332);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(90, 90);
