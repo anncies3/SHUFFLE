@@ -256,8 +256,8 @@
             // nowaGraToolStripMenuItem
             // 
             this.nowaGraToolStripMenuItem.Name = "nowaGraToolStripMenuItem";
-            this.nowaGraToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
-            this.nowaGraToolStripMenuItem.Text = "Nowa gra";
+            this.nowaGraToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.nowaGraToolStripMenuItem.Text = "New game";
             // 
             // SHUFFLE
             // 
