@@ -453,9 +453,8 @@ namespace SHUFFLE
             pic[14] = Properties.Resources.pic14;
             pic[15] = Properties.Resources.pic15;
 
-            Random r = new Random();
+            Random r = new Random(); // https://stackoverflow.com/questions/5383498/shuffle-rearrange-randomly-a-liststring
             int n = 16;
-            n = 16;
             while (n > 0)
             {
                 int k = (r.Next(0, n));
@@ -483,7 +482,7 @@ namespace SHUFFLE
             pictureBox15.BackgroundImage = pic[15];
             pictureBox16.BackgroundImage = pic[0];
 
-
+       
 
         }
     }
