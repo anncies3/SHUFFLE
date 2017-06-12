@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace SHUFFLE
 {
     public partial class SHUFFLE : Form
@@ -427,5 +428,63 @@ namespace SHUFFLE
             }
         }
 
+        private void zamknijToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void nowaGraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Image[] pic = new Image[16];
+            pic[0] = Properties.Resources.pic00;
+            pic[1] = Properties.Resources.pic1;
+            pic[2] = Properties.Resources.pic2;
+            pic[3] = Properties.Resources.pic3;
+            pic[4] = Properties.Resources.pic4;
+            pic[5] = Properties.Resources.pic5;
+            pic[6] = Properties.Resources.pic6;
+            pic[7] = Properties.Resources.pic7;
+            pic[8] = Properties.Resources.pic8;
+            pic[9] = Properties.Resources.pic9;
+            pic[10] = Properties.Resources.pic10;
+            pic[11] = Properties.Resources.pic11;
+            pic[12] = Properties.Resources.pic12;
+            pic[13] = Properties.Resources.pic13;
+            pic[14] = Properties.Resources.pic14;
+            pic[15] = Properties.Resources.pic15;
+
+            Random r = new Random();
+            int n = 16;
+            n = 16;
+            while (n > 0)
+            {
+                int k = (r.Next(0, n));
+                n--;
+                Image value = pic[n];
+                pic[n] = pic[k];
+                pic[k] = value;
+            }
+
+
+            pictureBox1.BackgroundImage = pic[1];
+            pictureBox2.BackgroundImage = pic[2];
+            pictureBox3.BackgroundImage = pic[3];
+            pictureBox4.BackgroundImage = pic[4];
+            pictureBox5.BackgroundImage = pic[5];
+            pictureBox6.BackgroundImage = pic[6];
+            pictureBox7.BackgroundImage = pic[7];
+            pictureBox8.BackgroundImage = pic[8];
+            pictureBox9.BackgroundImage = pic[9];
+            pictureBox10.BackgroundImage = pic[10];
+            pictureBox11.BackgroundImage = pic[11];
+            pictureBox12.BackgroundImage = pic[12];
+            pictureBox13.BackgroundImage = pic[13];
+            pictureBox14.BackgroundImage = pic[14];
+            pictureBox15.BackgroundImage = pic[15];
+            pictureBox16.BackgroundImage = pic[0];
+
+
+
+        }
     }
 }
