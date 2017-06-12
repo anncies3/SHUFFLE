@@ -101,7 +101,7 @@ namespace SHUFFLE
                 pictureBox2.BackColor = Color.Gray;
                 pictureBox1.BackgroundImage = Properties.Resources.pic00;
                 pictureBox1.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox5.BackColor == Color.White)
             {
@@ -109,7 +109,7 @@ namespace SHUFFLE
                 pictureBox5.BackColor = Color.Gray;
                 pictureBox1.BackgroundImage = Properties.Resources.pic00;
                 pictureBox1.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -121,7 +121,7 @@ namespace SHUFFLE
                 pictureBox1.BackColor = Color.Gray;
                 pictureBox2.BackgroundImage = Properties.Resources.pic00;
                 pictureBox2.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox3.BackColor == Color.White)
             {
@@ -129,7 +129,7 @@ namespace SHUFFLE
                 pictureBox3.BackColor = Color.Gray;
                 pictureBox2.BackgroundImage = Properties.Resources.pic00;
                 pictureBox2.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox6.BackColor == Color.White)
             {
@@ -137,7 +137,7 @@ namespace SHUFFLE
                 pictureBox6.BackColor = Color.Gray;
                 pictureBox2.BackgroundImage = Properties.Resources.pic00;
                 pictureBox2.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -149,7 +149,7 @@ namespace SHUFFLE
                 pictureBox2.BackColor = Color.Gray;
                 pictureBox3.BackgroundImage = Properties.Resources.pic00;
                 pictureBox3.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox4.BackColor == Color.White)
             {
@@ -157,7 +157,7 @@ namespace SHUFFLE
                 pictureBox4.BackColor = Color.Gray;
                 pictureBox3.BackgroundImage = Properties.Resources.pic00;
                 pictureBox3.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox7.BackColor == Color.White)
             {
@@ -165,7 +165,7 @@ namespace SHUFFLE
                 pictureBox7.BackColor = Color.Gray;
                 pictureBox3.BackgroundImage = Properties.Resources.pic00;
                 pictureBox3.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -177,7 +177,7 @@ namespace SHUFFLE
                 pictureBox3.BackColor = Color.Gray;
                 pictureBox4.BackgroundImage = Properties.Resources.pic00;
                 pictureBox4.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox8.BackColor == Color.White)
             {
@@ -185,7 +185,7 @@ namespace SHUFFLE
                 pictureBox8.BackColor = Color.Gray;
                 pictureBox4.BackgroundImage = Properties.Resources.pic00;
                 pictureBox4.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -197,7 +197,7 @@ namespace SHUFFLE
                 pictureBox1.BackColor = Color.Gray;
                 pictureBox5.BackgroundImage = Properties.Resources.pic00;
                 pictureBox5.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox6.BackColor == Color.White)
             {
@@ -205,7 +205,7 @@ namespace SHUFFLE
                 pictureBox6.BackColor = Color.Gray;
                 pictureBox5.BackgroundImage = Properties.Resources.pic00;
                 pictureBox5.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox9.BackColor == Color.White)
             {
@@ -213,7 +213,7 @@ namespace SHUFFLE
                 pictureBox9.BackColor = Color.Gray;
                 pictureBox5.BackgroundImage = Properties.Resources.pic00;
                 pictureBox5.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -225,7 +225,7 @@ namespace SHUFFLE
                 pictureBox2.BackColor = Color.Gray;
                 pictureBox6.BackgroundImage = Properties.Resources.pic00;
                 pictureBox6.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox5.BackColor == Color.White)
             {
@@ -233,7 +233,7 @@ namespace SHUFFLE
                 pictureBox5.BackColor = Color.Gray;
                 pictureBox6.BackgroundImage = Properties.Resources.pic00;
                 pictureBox6.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox7.BackColor == Color.White)
             {
@@ -241,7 +241,7 @@ namespace SHUFFLE
                 pictureBox7.BackColor = Color.Gray;
                 pictureBox6.BackgroundImage = Properties.Resources.pic00;
                 pictureBox6.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox10.BackColor == Color.White)
             {
@@ -249,7 +249,7 @@ namespace SHUFFLE
                 pictureBox10.BackColor = Color.Gray;
                 pictureBox6.BackgroundImage = Properties.Resources.pic00;
                 pictureBox6.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -261,7 +261,7 @@ namespace SHUFFLE
                 pictureBox6.BackColor = Color.Gray;
                 pictureBox7.BackgroundImage = Properties.Resources.pic00;
                 pictureBox7.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox3.BackColor == Color.White)
             {
@@ -269,7 +269,7 @@ namespace SHUFFLE
                 pictureBox3.BackColor = Color.Gray;
                 pictureBox7.BackgroundImage = Properties.Resources.pic00;
                 pictureBox7.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox8.BackColor == Color.White)
             {
@@ -277,7 +277,7 @@ namespace SHUFFLE
                 pictureBox8.BackColor = Color.Gray;
                 pictureBox7.BackgroundImage = Properties.Resources.pic00;
                 pictureBox7.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox11.BackColor == Color.White)
             {
@@ -285,7 +285,7 @@ namespace SHUFFLE
                 pictureBox11.BackColor = Color.Gray;
                 pictureBox7.BackgroundImage = Properties.Resources.pic00;
                 pictureBox7.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -297,7 +297,7 @@ namespace SHUFFLE
                 pictureBox4.BackColor = Color.Gray;
                 pictureBox8.BackgroundImage = Properties.Resources.pic00;
                 pictureBox8.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox7.BackColor == Color.White)
             {
@@ -305,7 +305,7 @@ namespace SHUFFLE
                 pictureBox7.BackColor = Color.Gray;
                 pictureBox8.BackgroundImage = Properties.Resources.pic00;
                 pictureBox8.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox12.BackColor == Color.White)
             {
@@ -313,7 +313,7 @@ namespace SHUFFLE
                 pictureBox12.BackColor = Color.Gray;
                 pictureBox8.BackgroundImage = Properties.Resources.pic00;
                 pictureBox8.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -325,7 +325,7 @@ namespace SHUFFLE
                 pictureBox5.BackColor = Color.Gray;
                 pictureBox9.BackgroundImage = Properties.Resources.pic00;
                 pictureBox9.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox10.BackColor == Color.White)
             {
@@ -333,7 +333,7 @@ namespace SHUFFLE
                 pictureBox10.BackColor = Color.Gray;
                 pictureBox9.BackgroundImage = Properties.Resources.pic00;
                 pictureBox9.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox13.BackColor == Color.White)
             {
@@ -341,7 +341,7 @@ namespace SHUFFLE
                 pictureBox13.BackColor = Color.Gray;
                 pictureBox9.BackgroundImage = Properties.Resources.pic00;
                 pictureBox9.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -353,7 +353,7 @@ namespace SHUFFLE
                 pictureBox6.BackColor = Color.Gray;
                 pictureBox10.BackgroundImage = Properties.Resources.pic00;
                 pictureBox10.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox9.BackColor == Color.White)
             {
@@ -361,7 +361,7 @@ namespace SHUFFLE
                 pictureBox9.BackColor = Color.Gray;
                 pictureBox10.BackgroundImage = Properties.Resources.pic00;
                 pictureBox10.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox11.BackColor == Color.White)
             {
@@ -369,7 +369,7 @@ namespace SHUFFLE
                 pictureBox11.BackColor = Color.Gray;
                 pictureBox10.BackgroundImage = Properties.Resources.pic00;
                 pictureBox10.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox14.BackColor == Color.White)
             {
@@ -377,7 +377,7 @@ namespace SHUFFLE
                 pictureBox14.BackColor = Color.Gray;
                 pictureBox10.BackgroundImage = Properties.Resources.pic00;
                 pictureBox10.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -389,7 +389,7 @@ namespace SHUFFLE
                 pictureBox7.BackColor = Color.Gray;
                 pictureBox11.BackgroundImage = Properties.Resources.pic00;
                 pictureBox11.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox10.BackColor == Color.White)
             {
@@ -397,7 +397,7 @@ namespace SHUFFLE
                 pictureBox10.BackColor = Color.Gray;
                 pictureBox11.BackgroundImage = Properties.Resources.pic00;
                 pictureBox11.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox12.BackColor == Color.White)
             {
@@ -405,7 +405,7 @@ namespace SHUFFLE
                 pictureBox12.BackColor = Color.Gray;
                 pictureBox11.BackgroundImage = Properties.Resources.pic00;
                 pictureBox11.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox15.BackColor == Color.White)
             {
@@ -413,7 +413,7 @@ namespace SHUFFLE
                 pictureBox15.BackColor = Color.Gray;
                 pictureBox11.BackgroundImage = Properties.Resources.pic00;
                 pictureBox11.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -425,7 +425,7 @@ namespace SHUFFLE
                 pictureBox8.BackColor = Color.Gray;
                 pictureBox12.BackgroundImage = Properties.Resources.pic00;
                 pictureBox12.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox11.BackColor == Color.White)
             {
@@ -433,7 +433,7 @@ namespace SHUFFLE
                 pictureBox11.BackColor = Color.Gray;
                 pictureBox12.BackgroundImage = Properties.Resources.pic00;
                 pictureBox12.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox16.BackColor == Color.White)
             {
@@ -441,7 +441,7 @@ namespace SHUFFLE
                 pictureBox16.BackColor = Color.Gray;
                 pictureBox12.BackgroundImage = Properties.Resources.pic00;
                 pictureBox12.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -453,7 +453,7 @@ namespace SHUFFLE
                 pictureBox9.BackColor = Color.Gray;
                 pictureBox13.BackgroundImage = Properties.Resources.pic00;
                 pictureBox13.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox14.BackColor == Color.White)
             {
@@ -461,7 +461,7 @@ namespace SHUFFLE
                 pictureBox14.BackColor = Color.Gray;
                 pictureBox13.BackgroundImage = Properties.Resources.pic00;
                 pictureBox13.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -473,7 +473,7 @@ namespace SHUFFLE
                 pictureBox10.BackColor = Color.Gray;
                 pictureBox14.BackgroundImage = Properties.Resources.pic00;
                 pictureBox14.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox13.BackColor == Color.White)
             {
@@ -481,7 +481,7 @@ namespace SHUFFLE
                 pictureBox13.BackColor = Color.Gray;
                 pictureBox14.BackgroundImage = Properties.Resources.pic00;
                 pictureBox14.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox15.BackColor == Color.White)
             {
@@ -489,7 +489,7 @@ namespace SHUFFLE
                 pictureBox15.BackColor = Color.Gray;
                 pictureBox14.BackgroundImage = Properties.Resources.pic00;
                 pictureBox14.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -502,7 +502,7 @@ namespace SHUFFLE
                 pictureBox16.BackColor = Color.Gray;
                 pictureBox15.BackgroundImage = Properties.Resources.pic00;
                 pictureBox15.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox11.BackColor == Color.White)
             {
@@ -510,7 +510,7 @@ namespace SHUFFLE
                 pictureBox11.BackColor = Color.Gray;
                 pictureBox15.BackgroundImage = Properties.Resources.pic00;
                 pictureBox15.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox14.BackColor == Color.White)
             {
@@ -518,7 +518,7 @@ namespace SHUFFLE
                 pictureBox14.BackColor = Color.Gray;
                 pictureBox15.BackgroundImage = Properties.Resources.pic00;
                 pictureBox15.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
@@ -530,7 +530,7 @@ namespace SHUFFLE
                 pictureBox12.BackColor = Color.Gray;
                 pictureBox16.BackgroundImage = Properties.Resources.pic00;
                 pictureBox16.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
             if (pictureBox15.BackColor == Color.White)
             {
@@ -538,7 +538,7 @@ namespace SHUFFLE
                 pictureBox15.BackColor = Color.Gray;
                 pictureBox16.BackgroundImage = Properties.Resources.pic00;
                 pictureBox16.BackColor = Color.White;
-                label2.Text = label2.Text + 1;
+                label2.Text = (Int32.Parse(label2.Text) + 1).ToString();
             }
         }
 
