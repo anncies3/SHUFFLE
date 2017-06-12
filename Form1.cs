@@ -435,26 +435,25 @@ namespace SHUFFLE
 
         private void nowaGraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Image[] pic = new Image[16];
-            pic[0] = Properties.Resources.pic00;
-            pic[1] = Properties.Resources.pic1;
-            pic[2] = Properties.Resources.pic2;
-            pic[3] = Properties.Resources.pic3;
-            pic[4] = Properties.Resources.pic4;
-            pic[5] = Properties.Resources.pic5;
-            pic[6] = Properties.Resources.pic6;
-            pic[7] = Properties.Resources.pic7;
-            pic[8] = Properties.Resources.pic8;
-            pic[9] = Properties.Resources.pic9;
-            pic[10] = Properties.Resources.pic10;
-            pic[11] = Properties.Resources.pic11;
-            pic[12] = Properties.Resources.pic12;
-            pic[13] = Properties.Resources.pic13;
-            pic[14] = Properties.Resources.pic14;
-            pic[15] = Properties.Resources.pic15;
+            Image[] pic = new Image[15];
+            pic[0] = Properties.Resources.pic1;
+            pic[1] = Properties.Resources.pic2;
+            pic[2] = Properties.Resources.pic3;
+            pic[3] = Properties.Resources.pic4;
+            pic[4] = Properties.Resources.pic5;
+            pic[5] = Properties.Resources.pic6;
+            pic[6] = Properties.Resources.pic7;
+            pic[7] = Properties.Resources.pic8;
+            pic[8] = Properties.Resources.pic9;
+            pic[9] = Properties.Resources.pic10;
+            pic[10] = Properties.Resources.pic11;
+            pic[11] = Properties.Resources.pic12;
+            pic[12] = Properties.Resources.pic13;
+            pic[13] = Properties.Resources.pic14;
+            pic[14] = Properties.Resources.pic15;
 
             Random r = new Random(); // https://stackoverflow.com/questions/5383498/shuffle-rearrange-randomly-a-liststring
-            int n = 16;
+            int n = 15;
             while (n > 0)
             {
                 int k = (r.Next(0, n));
@@ -465,22 +464,22 @@ namespace SHUFFLE
             }
 
 
-            pictureBox1.BackgroundImage = pic[1];
-            pictureBox2.BackgroundImage = pic[2];
-            pictureBox3.BackgroundImage = pic[3];
-            pictureBox4.BackgroundImage = pic[4];
-            pictureBox5.BackgroundImage = pic[5];
-            pictureBox6.BackgroundImage = pic[6];
-            pictureBox7.BackgroundImage = pic[7];
-            pictureBox8.BackgroundImage = pic[8];
-            pictureBox9.BackgroundImage = pic[9];
-            pictureBox10.BackgroundImage = pic[10];
-            pictureBox11.BackgroundImage = pic[11];
-            pictureBox12.BackgroundImage = pic[12];
-            pictureBox13.BackgroundImage = pic[13];
-            pictureBox14.BackgroundImage = pic[14];
-            pictureBox15.BackgroundImage = pic[15];
-            pictureBox16.BackgroundImage = pic[0];
+            pictureBox1.BackgroundImage = pic[0];
+            pictureBox2.BackgroundImage = pic[1];
+            pictureBox3.BackgroundImage = pic[2];
+            pictureBox4.BackgroundImage = pic[3];
+            pictureBox5.BackgroundImage = pic[4];
+            pictureBox6.BackgroundImage = pic[5];
+            pictureBox7.BackgroundImage = pic[6];
+            pictureBox8.BackgroundImage = pic[7];
+            pictureBox9.BackgroundImage = pic[8];
+            pictureBox10.BackgroundImage = pic[9];
+            pictureBox11.BackgroundImage = pic[10];
+            pictureBox12.BackgroundImage = pic[11];
+            pictureBox13.BackgroundImage = pic[12];
+            pictureBox14.BackgroundImage = pic[13];
+            pictureBox15.BackgroundImage = pic[14];
+            pictureBox16.BackgroundImage = Properties.Resources.pic00;
 
        
 
